@@ -5,4 +5,8 @@ docker-compose exec php sh
     php artisan migrate
 
 
-you may topup 
+you may topup using 
+:81/top-up/{bankId}
+
+you may inquiry with : 
+:80/api/inquiry
